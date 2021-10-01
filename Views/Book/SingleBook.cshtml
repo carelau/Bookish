@@ -1,0 +1,32 @@
+@model Book
+
+@{
+    ViewData["Title"] = "Book";
+}
+
+@* <div class="text-center">
+    <h1 class="display-4">Search Results</h1>
+    <p>@Model.Id</p>
+    <p>@Model.Title</p>
+    <p>@Model.Author</p>
+    </div> *@
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Book Id</th>
+            <th scope="col">Book Title</th>
+            <th scope="col">Author</th>
+            <th scope="col">Total Copies</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">@Model.Id</th>
+            <td>@Model.Title</td>
+            <td>@Model.Author</td>
+            <td>Total Copies</td>
+        </tr>
+
+    </tbody>
+</table>

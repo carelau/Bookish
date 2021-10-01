@@ -1,0 +1,24 @@
+@model Book
+@{
+    ViewData["Title"] = "Form";
+}
+@if (ViewBag.IsSuccess == true)
+{
+<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Success!</h4>
+  <p>You have just added a new book😊</p>
+  <hr>
+</div>
+}
+
+<h3>Add new book</h3>
+<form method="post" asp-action="AddBookToDatabase" asp-controller="Book">
+    <label asp-for="Title"></label>
+    <input asp-for="Title" />
+    <label asp-for="Author"></label>
+    <input asp-for="Author" />
+    <input type="submit" value = "AddNewBook" />
+</form>
+
+@* https://www.youtube.com/watch?v=EGoYmjjU_Ko&list=PLaFzfwmPR7_LTXu0Vz9Zz_Y0OMMC7ArHZ&index=42 *@
+@* https://www.youtube.com/watch?v=EGoYmjjU_Ko&list=PLaFzfwmPR7_LTXu0Vz9Zz_Y0OMMC7ArHZ&index=42 *@

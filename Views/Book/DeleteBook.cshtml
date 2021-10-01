@@ -1,0 +1,20 @@
+@model Book
+@{
+    ViewData["Title"] = "Delete Form";
+}
+
+@if (ViewBag.IsSuccess == true)
+{
+<div class="alert alert-warning" role="alert">
+  <h4 class="alert-heading">Cannot be deleted</h4>
+  <p>The book Id doesn't exist</p>
+  <hr>
+</div>
+}
+
+<h3> Delete book</h3>
+<form method="post" asp-action="DeleteBookInDatabase" asp-controller="Book">
+    <label asp-for="Id"></label>
+    <input asp-for="Id" />
+    <input type="submit" value = "Delete" />
+</form>

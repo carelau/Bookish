@@ -73,4 +73,10 @@ C:\Work\TechSwitch\C#\Bookish\Bookish\bin\Debug\net5.0\runtimes\win\lib\netstand
 C:\Work\TechSwitch\C#\Bookish\Bookish\bin\Debug\net5.0\dotnet-ef.dll
 C:\Work\TechSwitch\C#\Bookish\Bookish\bin\Debug\net5.0\Humanizer.dll
 C:\Work\TechSwitch\C#\Bookish\Bookish\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Work\TechSwitch\C#\Bookish\Bookish\obj\Debug\net5.0\Razor\Views\Book\BookView.cshtml.g.cs
+C:\Work\TechSwitch\C#\Bookish\Bookish\obj\Debug\net5.0\Razor\Views\Book\AddNewBook.cshtml.g.cs
+C:\Work\TechSwitch\C#\Bookish\Bookish\obj\Debug\net5.0\Razor\Views\Book\Library.cshtml.g.cs
+C:\Work\TechSwitch\C#\Bookish\Bookish\obj\Debug\net5.0\Razor\Views\Book\SearchBook.cshtml.g.cs
+C:\Work\TechSwitch\C#\Bookish\Bookish\obj\Debug\net5.0\Razor\Views\Book\SingleBook.cshtml.g.cs
+C:\Work\TechSwitch\C#\Bookish\Bookish\obj\Debug\net5.0\Razor\Views\Book\AddBookToDatabase.cshtml.g.cs
+C:\Work\TechSwitch\C#\Bookish\Bookish\obj\Debug\net5.0\Razor\Views\Book\DeleteBook.cshtml.g.cs
+C:\Work\TechSwitch\C#\Bookish\Bookish\obj\Debug\net5.0\Razor\Views\Book\DeleteBookInDatabase.cshtml.g.cs

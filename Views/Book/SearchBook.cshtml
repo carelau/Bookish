@@ -1,0 +1,18 @@
+@model Book
+@{
+    ViewData["Title"] = "SearchBook";
+}
+@if (ViewBag.IsSuccess == true)
+{
+<div class="alert alert-warning" role="alert">
+  <h4 class="alert-heading">Cannot be found</h4>
+  <p>The book Id doesn't exist</p>
+  <hr>
+</div>
+}
+<h3>Search</h3>
+<form method="post" asp-action="SingleBook" asp-controller="Book">
+    <label asp-for="Id">Enter Book Id:</label>
+    <input asp-for="Id" />
+    <input type="submit" value = "Search" />
+</form>
